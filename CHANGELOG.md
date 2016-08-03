@@ -1,13 +1,8 @@
 Changelog
 =========
 
-<<<<<<< HEAD
-1.4.0
------
-=======
 2.0 (unreleased)
 ----------------
->>>>>>> remove deprecated code for version 2
 
 * **2016-06-20**: [BC Break] removed deprecated methods HierarchyInterface:.getParent/setParent. 
                   DocumentManager::flush no longer saves the PHPCR session if there are no changes on the ODM layer.
